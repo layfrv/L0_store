@@ -4,7 +4,7 @@ function openPaymentModal() {
           <div class="modal__header">
             <h1>Способ оплаты</h1>
             <button class="modal__close-btn" id="modal-payment-close">
-              <img src="./src/assets/icons/close.svg" />
+              <img src="src/assets/icons/close.svg" />
             </button>
           </div>
           <div class="modal__content">
@@ -18,13 +18,13 @@ function openPaymentModal() {
                   checked
                 />
                 <label for="modal-card-1" class="modal__label">
-                  <img src="./src/assets/icons/input-radio-fill.svg" />
+                  <img src="src/assets/icons/input-radio-fill.svg" />
                 </label>
 
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="./src/assets/icons/mir-card.svg"
+                    src="src/assets/icons/mir-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -39,13 +39,13 @@ function openPaymentModal() {
                   id="modal-card-2"
                 />
                 <label for="modal-card-2" class="modal__label">
-                  <img src="./src/assets/icons/input-radio-fill.svg" />
+                  <img src="src/assets/icons/input-radio-fill.svg" />
                 </label>
 
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="./src/assets/icons/visa-card.svg"
+                    src="src/assets/icons/visa-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -60,13 +60,13 @@ function openPaymentModal() {
                   id="modal-card-3"
                 />
                 <label for="modal-card-3" class="modal__label">
-                  <img src="./src/assets/icons/input-radio-fill.svg" />
+                  <img src="src/assets/icons/input-radio-fill.svg" />
                 </label>
 
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="./src/assets/icons/master-card.svg"
+                    src="src/assets/icons/master-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -81,13 +81,13 @@ function openPaymentModal() {
                 id="modal-card-4"
               />
               <label for="modal-card-4" class="modal__label">
-                <img src="./src/assets/icons/input-radio-fill.svg" />
+                <img src="src/assets/icons/input-radio-fill.svg" />
               </label>
 
               <div class="modal__payment-card">
                 <img
                   class="payment-card-image"
-                  src="./src/assets/icons/maestro-card.svg"
+                  src="src/assets/icons/maestro-card.svg"
                   alt="Платежная карта"
                 />
                 <p class="payment-card_number">1234 12•• •••• 1234</p>

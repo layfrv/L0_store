@@ -4,7 +4,7 @@ function openDeliveryModal() {
             <div class="modal__header">
               <h1>Способ доставки</h1>
               <button class="modal__close-btn" id="modal-delivery-close">
-                <img src="./src/assets/icons/close.svg" />
+                <img src="src/assets/icons/close.svg" />
               </button>
             </div>
             <div class="modal__delivery-btns">
@@ -34,7 +34,7 @@ function openDeliveryModal() {
                       id="modal-address-1"
                     />
                     <label for="modal-address-1" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
@@ -45,7 +45,7 @@ function openDeliveryModal() {
                       <div
                         class="modal__content_adresses_item__delivery-point_rate"
                       >
-                        <img src="./src/assets/icons/star_fill.svg" />
+                        <img src="src/assets/icons/star_fill.svg" />
                         <p>4.99</p>
                       </div>
                       <p>Пункт выдачи</p>
@@ -91,7 +91,7 @@ function openDeliveryModal() {
                       id="modal-address-2"
                     />
                     <label for="modal-address-2" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
@@ -102,7 +102,7 @@ function openDeliveryModal() {
                       <div
                         class="modal__content_adresses_item__delivery-point_rate"
                       >
-                        <img src="./src/assets/icons/star_fill.svg" />
+                        <img src="src/assets/icons/star_fill.svg" />
                         <p>4.99</p>
                       </div>
                       <p>Пункт выдачи</p>
@@ -148,7 +148,7 @@ function openDeliveryModal() {
                       id="modal-address-3"
                     />
                     <label for="modal-address-3" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
@@ -159,7 +159,7 @@ function openDeliveryModal() {
                       <div
                         class="modal__content_adresses_item__delivery-point_rate"
                       >
-                        <img src="./src/assets/icons/star_fill.svg" />
+                        <img src="src/assets/icons/star_fill.svg" />
                         <p>4.99</p>
                       </div>
                       <p>Пункт выдачи</p>
@@ -212,7 +212,7 @@ function openDeliveryModal() {
                       checked
                     />
                     <label for="client-address-1" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
@@ -260,7 +260,7 @@ function openDeliveryModal() {
                       id="client-address-2"
                     />
                     <label for="client-address-2" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
@@ -308,7 +308,7 @@ function openDeliveryModal() {
                       id="client-address-3"
                     />
                     <label for="client-address-3" class="modal__label">
-                      <img src="./src/assets/icons/input-radio-fill.svg" />
+                      <img src="src/assets/icons/input-radio-fill.svg" />
                     </label>
                   </div>
                   <div class="modal__content_adresses_item__text">
