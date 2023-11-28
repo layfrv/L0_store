@@ -50,7 +50,7 @@ export function renderCards(data) {
               ${isSelected ? "checked" : ""}
             />
             <label for="checkbox-card-${id}" class="checkbox card-item__checkbox_label">
-              <img src="/src/assets/icons/checkbox-fill.svg" alt="" />
+              <img src="./src/assets/icons/checkbox-fill.svg" alt="" />
             </label>
           </div>
 

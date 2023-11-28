@@ -24,7 +24,7 @@ function openPaymentModal() {
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="/src/assets/icons/mir-card.svg"
+                    src="./src/assets/icons/mir-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -45,7 +45,7 @@ function openPaymentModal() {
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="/src/assets/icons/visa-card.svg"
+                    src="./src/assets/icons/visa-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -66,7 +66,7 @@ function openPaymentModal() {
                 <div class="modal__payment-card">
                   <img
                     class="payment-card-image"
-                    src="/src/assets/icons/master-card.svg"
+                    src="./src/assets/icons/master-card.svg"
                     alt="Платежная карта"
                   />
                   <p class="payment-card_number">1234 12•• •••• 1234</p>
@@ -87,7 +87,7 @@ function openPaymentModal() {
               <div class="modal__payment-card">
                 <img
                   class="payment-card-image"
-                  src="/src/assets/icons/maestro-card.svg"
+                  src="./src/assets/icons/maestro-card.svg"
                   alt="Платежная карта"
                 />
                 <p class="payment-card_number">1234 12•• •••• 1234</p>
