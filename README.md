@@ -1,5 +1,7 @@
 # Тестовое задание L0 для Wildberries
 
+https://layfrv.github.io/L0_store/
+
 HTML + CSS + Vanilla JavaScript
 
 ## Функционал
