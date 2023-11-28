@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES2021",
+    "allowImportingTsExtensions": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}

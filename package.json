@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "1.0.1",
+  "description": ".",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {},
+  "author": "Layla F.",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+  }
+}

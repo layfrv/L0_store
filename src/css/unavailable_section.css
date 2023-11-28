@@ -1,0 +1,29 @@
+.unavailable_section__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unavailable_section__header>h3 {
+  align-items: flex-end;
+  color: var(--text-black, #000);
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.unavailable_section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 22px;
+  border-top: 1px solid var(--rulers);
+}
+
+.unavailable_section__content_cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}

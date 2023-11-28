@@ -1,0 +1,13 @@
+.payment_section__main_payment-card {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+@media (width < 700px) {
+  .payment_section {
+    gap: 8px;
+    padding: 16px 16px 24px
+  }
+}

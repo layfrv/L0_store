@@ -1,0 +1,23 @@
+[
+  {
+    "type": "clientAddress",
+    "city": "Бишкек",
+    "district": null,
+    "street": "Табышалиева",
+    "homeNumber": "57"
+  },
+  {
+    "type": "clientAddress",
+    "city": "Бишкек",
+    "district": null,
+    "street": "Жукеева-Пудовкина",
+    "homeNumber": "77/1"
+  },
+  {
+    "type": "clientAddress",
+    "city": "Бишкек",
+    "district": "Джал",
+    "street": "Табышалиева",
+    "homeNumber": "67/1"
+  }
+]

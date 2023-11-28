@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Футболка UZcotton мужская",
+    "price": "1000051",
+    "currency": "сом",
+    "discount": "50",
+    "img": "src/assets/images/products/t-shorts.png",
+    "color": "белый",
+    "size": "56",
+    "stock": "Коледино WB",
+    "seller": "OOO Вайлдберриз",
+    "sellerInfo": {
+      "name": "OOO «ВАЙЛДБЕРРИЗ»",
+      "ogrn": 1067746062449,
+      "address": "142181, Московская область, г. Подольск, деревня Коледино, Территория Индустриальный парк Коледино, д. 6, стр. 1"
+    },
+    "availableItems": 200,
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "title": "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
+    "price": "11500",
+    "currency": "сом",
+    "discount": "55",
+    "img": "src/assets/images/products/case.png",
+    "color": "прозрачный",
+    "size": null,
+    "stock": "Коледино WB",
+    "seller": "OOO Мегапрофстиль",
+    "sellerInfo": {
+      "name": "OOO «МЕГАПРОФСТИЛЬ»",
+      "ogrn": 5167746237148,
+      "address": "129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34"
+    },
+    "availableItems": 200,
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "title": "Карандаши цветные Faber-Castell \"Замок\", набор 24 цвета, заточенные, шестигранные, Faber-Castell",
+    "price": "475",
+    "currency": "сом",
+    "discount": "55",
+    "img": "src/assets/images/products/pencils.png",
+    "color": null,
+    "size": null,
+    "stock": "Коледино WB",
+    "seller": "OOO Вайлдберриз",
+    "sellerInfo": {
+      "name": "OOO «ВАЙЛДБЕРРИЗ»",
+      "ogrn": 1067746062449,
+      "address": "142181, Московская область, г. Подольск, деревня Коледино, Территория Индустриальный парк Коледино, д. 6, стр. 1"
+    },
+    "availableItems": 2,
+    "amount": 1
+  },
+  {
+    "id": 4,
+    "title": "Футболка UZcotton мужская",
+    "price": "1051",
+    "currency": "сом",
+    "discount": "50",
+    "img": "src/assets/images/products/t-shorts.png",
+    "color": "белый",
+    "size": "56",
+    "stock": "Коледино WB",
+    "seller": "OOO Вайлдберриз",
+    "sellerInfo": {
+      "name": "OOO «ВАЙЛДБЕРРИЗ»",
+      "ogrn": 1067746062449,
+      "address": "142181, Московская область, г. Подольск, деревня Коледино, Территория Индустриальный парк Коледино, д. 6, стр. 1"
+    },
+    "availableItems": 0,
+    "amount": 0
+  },
+  {
+    "id": 5,
+    "title": "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
+    "price": "10500",
+    "currency": "сом",
+    "discount": "55",
+    "img": "src/assets/images/products/case.png",
+    "color": "прозрачный",
+    "size": null,
+    "stock": "Коледино WB",
+    "seller": "OOO Мегапрофстиль",
+    "sellerInfo": {
+      "name": "OOO «МЕГАПРОФСТИЛЬ»",
+      "ogrn": 5167746237148,
+      "address": "129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34"
+    },
+    "availableItems": 0,
+    "amount": 0
+  },
+  {
+    "id": 6,
+    "title": "Карандаши цветные Faber-Castell \"Замок\", набор 24 цвета, заточенные, шестигранные, Faber-Castell",
+    "price": "494",
+    "currency": "сом",
+    "discount": "55",
+    "img": "src/assets/images/products/pencils.png",
+    "color": null,
+    "size": null,
+    "stock": "Коледино WB",
+    "seller": "OOO Вайлдберриз",
+    "sellerInfo": {
+      "name": "OOO «ВАЙЛДБЕРРИЗ»",
+      "ogrn": 1067746062449,
+      "address": "142181, Московская область, г. Подольск, деревня Коледино, Территория Индустриальный парк Коледино, д. 6, стр. 1"
+    },
+    "availableItems": 0,
+    "amount": 0
+  }
+]

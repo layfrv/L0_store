@@ -1,0 +1,57 @@
+.footer::before {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 34px;
+  background: var(--background-smoky);
+  border-radius: 0 0 24px 24px;
+  content: "";
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 102px;
+  padding-top: 24px;
+  background-color: var(--violet);
+}
+
+.footer__content {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.footer__content p {
+  color: rgb(255 255 255 / 70%);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+@media (width < 700px) {
+  .footer {
+    height: 105px;
+    padding-bottom: 135px;
+  }
+
+  .footer::before {
+    height: 41px;
+  }
+
+  .footer__content {
+    margin-top: 100px;
+  }
+
+  .basket-value_mobile {
+    top: -5px;
+    right: -5px;
+  }
+}

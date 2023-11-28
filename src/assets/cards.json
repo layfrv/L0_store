@@ -1,0 +1,22 @@
+[
+  {
+    "paymentSystem": "mir",
+    "number": 1234566767671234,
+    "img": "src/assets/icons.mir-card.svg"
+  },
+  {
+    "paymentSystem": "visa",
+    "number": 1234566767671234,
+    "img": "src/assets/icons.visa-card.svg"
+  },
+  {
+    "paymentSystem": "masterCard",
+    "number": 1234566767671234,
+    "img": "src/assets/icons.master-card.svg"
+  },
+  {
+    "paymentSystem": "maestro",
+    "number": 1234566767671234,
+    "img": "src/assets/icons.maestro-card.svg"
+  }
+]

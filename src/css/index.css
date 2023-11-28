@@ -1,0 +1,125 @@
+@import './reset.css';
+@import './variables.css';
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden scroll;
+  color: rgb(214 214 214);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background-smoky);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+
+@media (width < 900px) {
+  main {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+h1 {
+  color: var(--text-black, #000);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.28px;
+}
+
+h2 {
+  color: var(--text-black, #000);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+}
+
+h3 {
+  color: var(--text-black, #000);
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+p {
+  color: var(--text-black, #000);
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.currency {
+  font-size: 20px;
+}
+
+.smallerFont {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+@media (width < 700px) {
+  .mobile__menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    padding: 0 13px;
+    background: var(--text-white);
+    box-shadow: 0 -0.5px 0 0 rgb(0 0 0 / 30%);
+  }
+
+  .mobile__menu_btn_img {
+    display: block;
+    width: 28px;
+    height: 28px;
+  }
+
+  .btn_img_main {
+    background-image: url('../assets/icons/home.svg');
+  }
+
+  .btn_img_catalog {
+    background-image: url('../assets/icons/catalog.svg');
+  }
+
+  .btn_img_cart {
+    position: relative;
+    background-image: url('../assets/icons/cart-mobile.svg');
+  }
+
+  .btn_img_favorites {
+    background-image: url('../assets/icons/favorites.svg');
+  }
+
+  .btn_img_profile {
+    background-image: url('../assets/icons/profile-mobile.svg');
+  }
+}
