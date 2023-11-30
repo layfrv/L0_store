@@ -93,7 +93,8 @@ p {
     height: 56px;
     padding: 0 13px;
     background: var(--text-white);
-    box-shadow: 0 -0.5px 0 0 rgb(0 0 0 / 30%);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(2.5px);
   }
 
   .mobile__menu_btn_img {

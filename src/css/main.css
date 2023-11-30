@@ -75,7 +75,7 @@
 .main__content__itemsList {
   display: flex;
   flex-direction: column;
-  gap: 31px
+  gap: 34px
 }
 
 .available_section {
@@ -245,7 +245,12 @@
 
 @media (width < 700px) {
   .main {
+    margin: 0;
     padding: 0;
+
+    ::-webkit-scrollbar {
+      width: 0;
+    }
   }
 
   .main__content {
@@ -255,7 +260,7 @@
   }
 
   .main__content__itemsList {
-    gap: 48px;
+    gap: 42px;
     padding: 10px 16px;
   }
 

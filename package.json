@@ -1,14 +1,14 @@
 {
-  "name": "",
+  "name": "test-store",
   "version": "1.0.1",
-  "description": ".",
-  "main": "index.js",
+  "description": "test project",
+  "main": "index.html",
   "scripts": {
     "start": "live-server"
   },
   "repository": {},
   "author": "Layla F.",
   "devDependencies": {
-    "live-server": "^1.2.1",
+    "live-server": "^1.2.1"
   }
 }
