@@ -75,8 +75,12 @@ export function increment(id) {
   let productIndex = shoppingCart.findIndex((el) => el.id === id);
   let product = shoppingCart[productIndex];
   let priceElement = document.getElementById(`card-price-${id}`);
+  let mobilePriceElement = document.getElementById(`mobile-card-price-${id}`);
   let withoutDiscountPriceElement = document.getElementById(
     `card-price-discount-${id}`
+  );
+  let mobileDiscountPriceElement = document.getElementById(
+    `mobile-card-price-discount-${id}`
   );
 
   let productPrice = parseInt(product.price);
@@ -97,6 +101,8 @@ export function increment(id) {
 
   printValue(totalPriceString, priceElement);
   printValue(withoutDiscountPriceString, withoutDiscountPriceElement);
+  printValue(totalPriceString, mobilePriceElement);
+  printValue(withoutDiscountPriceString, mobileDiscountPriceElement);
 
   counterValue = counterValue + 1;
   printValue(counterValue, counterValueElement);
@@ -117,8 +123,12 @@ export function decrement(id) {
   let productIndex = shoppingCart.findIndex((el) => el.id === id);
   let product = shoppingCart[productIndex];
   const priceElement = document.getElementById(`card-price-${id}`);
+  let mobilePriceElement = document.getElementById(`mobile-card-price-${id}`);
   const withoutDiscountPriceElement = document.getElementById(
     `card-price-discount-${id}`
+  );
+  let mobileDiscountPriceElement = document.getElementById(
+    `mobile-card-price-discount-${id}`
   );
 
   let productPrice = parseInt(product.price);
@@ -141,6 +151,8 @@ export function decrement(id) {
 
   printValue(totalPriceString, priceElement);
   printValue(withoutDiscountPriceString, withoutDiscountPriceElement);
+  printValue(totalPriceString, mobilePriceElement);
+  printValue(withoutDiscountPriceString, mobileDiscountPriceElement);
 
   counterValue = counterValue - 1;
   printValue(counterValue, counterValueElement);

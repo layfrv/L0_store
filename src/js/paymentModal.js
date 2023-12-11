@@ -123,14 +123,6 @@ function openPaymentModal() {
       closeHandler();
     }
   });
-
-  // const checkInputs = document.querySelectorAll(".payment-modal__input");
-  // checkInputs.forEach(input, (index) => {
-  //   if (input.checked) {
-  //     let card;
-  //     localStorage.setItem("selectedCard", JSON.stringify(card));
-  //   }
-  // });
 }
 
 const openPaymentModalBtns = document.querySelectorAll(".payment-change-btn");

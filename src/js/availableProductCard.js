@@ -61,8 +61,8 @@ export function renderCards(data) {
 
           <div class="card-item__text">
             <div class="card-item__mobile-price">
-              <p id="card-price-${id}">${totalPriceString} ${currency}</p>
-              <del class="card-item__mobile-discount" id="card-price-discount-${id}">
+              <p id="mobile-card-price-${id}">${totalPriceString} ${currency}</p>
+              <del class="card-item__mobile-discount" id="mobile-card-price-discount-${id}">
               ${priceWithoutDiscountString} ${currency}
               </del>
             </div>
